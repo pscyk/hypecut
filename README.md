@@ -10,16 +10,17 @@ YouTube & Twitch → vertical highlights with animated, word-by-word captions.
 hypecut "https://youtu.be/eHTXQW58WhA"
 ```
 
-[![Hypecut product film: one long video becomes captioned vertical highlights](docs/demo/hypecut-product-preview.gif)](docs/demo/hypecut-product-1080p.mp4)
+[![Hypecut demo: comedy and Tsoding’s Twitch coding stream become captioned clips](docs/demo/hypecut-product-preview.gif)](docs/demo/hypecut-product-720p.mp4)
 
-**[Watch the product film · 32 seconds](docs/demo/hypecut-product-1080p.mp4)**
+**[Watch the product film · 32 seconds · 720p · 1.46 MB](docs/demo/hypecut-product-720p.mp4)**
 
-[Watch the comedy clip](docs/demo/igl-clip-3.mp4) · [Watch the stream clip](docs/demo/godot-clip-1.mp4)
+[Watch the comedy clip](docs/demo/igl-clip-3.mp4) · [Watch the Tsoding / Twitch clip](docs/demo/godot-clip-1.mp4)
 
 </div>
 
-Real comedy and coding-stream examples: long-form footage becomes captioned vertical highlights.
-[Comedy source](https://www.youtube.com/watch?v=eHTXQW58WhA) · [Stream source](https://www.youtube.com/watch?v=6CHkSG9NWoc).
+The preview includes both the comedy example and **Tsoding’s Godot / Twitch stream**.
+The **435 kB preview** loads with the README; the full film loads when you click.
+[Comedy source](https://www.youtube.com/watch?v=eHTXQW58WhA) · [Godot stream archive](https://www.youtube.com/watch?v=6CHkSG9NWoc).
 Selections vary with the source, model, and framing options. The showcase used the
 optional LR-ASD speaker tracker; the portable default uses face/mouth-motion tracking.
 

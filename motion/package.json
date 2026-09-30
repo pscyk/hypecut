@@ -6,7 +6,8 @@
     "studio": "remotion studio src/index.tsx",
     "render": "remotion render src/index.tsx HypecutLandscape output/hypecut-product-1080p.mp4 --codec h264 --crf 18",
     "still": "remotion still src/index.tsx HypecutLandscape output/poster.png --frame 300",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "export:web": "bash export_web.sh"
   },
   "dependencies": {
     "@fontsource-variable/inter": "5.2.8",

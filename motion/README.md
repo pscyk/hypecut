@@ -10,6 +10,7 @@ and an original electronic score. There is no voiceover or borrowed music.
 npm ci
 npm run typecheck
 npm run render
+npm run export:web
 ```
 
 Remotion downloads its browser on first use. An existing Chrome Headless Shell can
@@ -21,8 +22,11 @@ npm run studio  # inspect the timeline
 npm run still   # export the comedy transformation frame
 ```
 
-The final file is `output/hypecut-product-1080p.mp4`. Intermediate renders are ignored
-by Git. Source clips and licensed fonts are in `public/`; the score is generated
+The 1080p master is `output/hypecut-product-1080p.mp4` and is ignored by Git.
+The README links to a compact 720p H.264/AAC export with fast-start metadata.
+`npm run export:web` requires FFmpeg and Python 3; it also generates a six-second GIF
+showing both comedy and Tsoding’s Godot / Twitch stream. It enforces size budgets
+of 600 kB for the GIF and 3 MB for the film. Source clips and licensed fonts are in `public/`; the score is generated
 by `make_audio.py` (Python + NumPy), and its WAV is included for repeatable renders.
 
 ## Storyboard
@@ -31,7 +35,7 @@ by `make_audio.py` (Python + NumPy), and its WAV is included for repeatable rend
 | --- | --- |
 | 0:00–0:03 | One link. All the highlights. A command types on. |
 | 0:03–0:12 | A long comedy video fans into three captioned clips. |
-| 0:12–0:20 | A coding stream becomes two facecam clips. |
+| 0:12–0:20 | Tsoding’s Godot / Twitch stream becomes two facecam clips. |
 | 0:20–0:26 | Find the moment, frame the speaker, make every word land. |
 | 0:26–0:32 | Hypecut wordmark, command, and repository address. |
 

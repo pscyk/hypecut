@@ -112,9 +112,9 @@ function Comedy(){
 function Stream(){
  const f=useCurrentFrame();
  return <AbsoluteFill style={{opacity:1}}>
-  <Header step="02 / ANY RABBIT HOLE" title="Even a two-hour coding stream." f={f}/>
+  <Header step="02 / TWITCH · TSODING" title="Even a two-hour coding stream." f={f}/>
   <Label style={{position:'absolute',left:96,top:310,opacity:ease(f,8,28)}}>ONE LONG VIDEO</Label>
-  <div style={{opacity:ease(f,12,35)}}><SourceCard f={f+15} x={94} y={350} w={822} video="stream-source.mp4" title="The stream keeps going." duration="2:01:40"/></div>
+  <div style={{opacity:ease(f,12,35)}}><SourceCard f={f+15} x={94} y={350} w={822} video="stream-source.mp4" title="Tsoding · Godot stream" duration="2:01:40"/></div>
   <Arrow x={958} y={541} f={f} delay={29}/>
   <Label style={{position:'absolute',left:1091,top:310,color:C.lime,opacity:ease(f,38,60)}}>THE BEST BITS DON’T GET LOST.</Label>
   <ClipCard name="godot-clip-1.mp4" x={1110} y={350} w={264} f={f} delay={40} number="01" tag="The hot take" duration="0:09" frames={255} originX={450} originY={450}/>
