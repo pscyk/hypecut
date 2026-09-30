@@ -1,4 +1,4 @@
-"""Measure (ported from oxcorp-loop node 8).
+"""Measure (ported from the original distribution loop node 8).
 
 Pulls performance for each posted clip into `outcomes`. For a LIVE post we fetch
 real IG Insights; for a dry-run there is no real post, so we record a

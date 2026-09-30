@@ -12,3 +12,6 @@ hypecut-out/
 work/
 artifacts/
 .DS_Store
+motion/node_modules/
+motion/output/
+motion/.cache/

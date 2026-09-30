@@ -1,7 +1,7 @@
 """Format library — proven clip structures the highlight picker can sample from,
 and the asset the learn step re-weights from real outcomes (the flywheel).
 
-Ported from oxcorp-loop's format_library.py. Lives at data/format_library.json;
+Ported from the original distribution loop's format_library.py. Lives at data/format_library.json;
 seeded on first use so it's a mutable, persisted asset (NOT a cache — don't
 delete it with work/).
 """

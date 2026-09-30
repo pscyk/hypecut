@@ -1,4 +1,4 @@
-"""Trend research (ported from oxcorp-loop node 2.5, adapted to the anthropic SDK).
+"""Trend research (ported from the original distribution loop node 2.5, adapted to the anthropic SDK).
 
 Pulls lightweight signal (YouTube most-popular + a goal-driven search), then
 distills a compact brief (recommended hooks + formats) — synthesized by Claude

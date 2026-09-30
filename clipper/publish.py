@@ -1,4 +1,4 @@
-"""Publishers (ported from oxcorp-loop's interfaces/publisher.py, adapted to
+"""Publishers (ported from the original distribution loop's interfaces/publisher.py, adapted to
 clipper's dict-shaped clip rows from loop_store).
 
 DryRunPublisher is the DEFAULT — it logs the exact payload and posts nothing.
