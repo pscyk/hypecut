@@ -7,9 +7,9 @@
   MIT license bundled at `clipper/assets/models/LICENSE-YuNet.txt`.
 - Python dependencies keep their own licenses. LR-ASD and its weights are not
   bundled; an existing external installation can be configured explicitly.
-- `docs/demo/` contains demonstration excerpts featuring India's Got
-  Latent and Tsoding. The source videos are linked in the README. They are example
-  media, not a grant of rights to the underlying recordings.
+- Demo excerpts feature [India’s Got Latent](https://www.youtube.com/watch?v=eHTXQW58WhA)
+  and [Tsoding’s Godot stream](https://www.youtube.com/watch?v=6CHkSG9NWoc).
+  These are example media, not a grant of rights to the underlying recordings.
 
 - **Inter** and **IBM Plex Mono**, distributed by Fontsource under their bundled
   open font licenses. See `motion/public/fonts/`.
