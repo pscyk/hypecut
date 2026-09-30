@@ -12,17 +12,9 @@ hypecut "https://youtu.be/eHTXQW58WhA"
 
 [![Hypecut demo: comedy and Tsoding’s Twitch coding stream become captioned clips](docs/demo/hypecut-product-preview.gif)](docs/demo/hypecut-product-720p.mp4)
 
-**[Watch the product film · 32 seconds · 720p · 1.46 MB](docs/demo/hypecut-product-720p.mp4)**
-
-[Watch the comedy clip](docs/demo/igl-clip-3.mp4) · [Watch the Tsoding / Twitch clip](docs/demo/godot-clip-1.mp4)
+[Watch demo](docs/demo/hypecut-product-720p.mp4) · [Comedy clip](docs/demo/igl-clip-3.mp4) · [Twitch clip](docs/demo/godot-clip-1.mp4)
 
 </div>
-
-The preview includes both the comedy example and **Tsoding’s Godot / Twitch stream**.
-The **435 kB preview** loads with the README; the full film loads when you click.
-[Comedy source](https://www.youtube.com/watch?v=eHTXQW58WhA) · [Godot stream archive](https://www.youtube.com/watch?v=6CHkSG9NWoc).
-Selections vary with the source, model, and framing options. The showcase used the
-optional LR-ASD speaker tracker; the portable default uses face/mouth-motion tracking.
 
 ## Install
 
@@ -126,7 +118,7 @@ The manifest records requested, selected, and generated counts.
 | `track-corr` | Tracking based on face motion and audio-energy correlation |
 | `track` | LR-ASD active-speaker tracking with an existing external setup |
 
-For `track`, point `HYPECUT_ASD_DIR` at an LR-ASD checkout containing `asd_infer.py`
+The demo uses the optional `track` setup. For `track`, point `HYPECUT_ASD_DIR` at an LR-ASD checkout containing `asd_infer.py`
 and `HYPECUT_ASD_PY` at its isolated Python interpreter. These are the existing
 pipeline's external resources, not installed by the base package. Hypecut reports
 a missing setup before downloading a video. See [architecture](docs/architecture.md).
