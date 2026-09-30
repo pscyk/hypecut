@@ -150,8 +150,13 @@ uv build
 uv run hypecut --help
 ```
 
-The product film’s [editable Remotion project](motion/README.md) is included.
-
 The `clipper` Python namespace preserves the original engine; `hypecut` is the
 public command. The default CLI never publishes to social platforms or starts
 a web service. See [third-party notices](THIRD_PARTY_NOTICES.md) for bundled assets.
+
+## Research references
+
+- **Whisper:** Radford et al., [Robust Speech Recognition via Large-Scale Weak Supervision](https://proceedings.mlr.press/v202/radford23a.html), ICML 2023. Speech recognition through faster-whisper.
+- **YuNet:** Wu, Peng, and Yu, [YuNet: A Tiny Millisecond-level Face Detector](https://link.springer.com/article/10.1007/s11633-023-1423-y), Machine Intelligence Research, 2023. Face detection.
+- **LR-ASD:** Liao et al., [LR-ASD: Lightweight and Robust Network for Active Speaker Detection](https://junhua-liao.github.io/Junhua-Liao/publications/papers/IJCV_2025.pdf), IJCV 2025. Optional active-speaker tracking with `--reframe track`.
+- **Light-ASD:** Liao et al., [A Light Weight Model for Active Speaker Detection](https://openaccess.thecvf.com/content/CVPR2023/html/Liao_A_Light_Weight_Model_for_Active_Speaker_Detection_CVPR_2023_paper.html), CVPR 2023. The predecessor to LR-ASD.
