@@ -10,13 +10,15 @@ YouTube & Twitch → vertical highlights with animated, word-by-word captions.
 hypecut "https://youtu.be/eHTXQW58WhA"
 ```
 
-[![Hypecut demo: comedy and a coding stream turned into captioned vertical clips](docs/demo/showcase.gif)](https://oxcorp.ai)
+[![Hypecut product film: one long video becomes captioned vertical highlights](docs/demo/hypecut-product-preview.gif)](docs/demo/hypecut-product-1080p.mp4)
 
-[Watch the comedy clip](docs/demo/igl-clip-3.mp4) · [Watch the stream clip](docs/demo/godot-clip-1.mp4) · [OxCorp demo](https://oxcorp.ai)
+**[Watch the product film · 32 seconds](docs/demo/hypecut-product-1080p.mp4)**
+
+[Watch the comedy clip](docs/demo/igl-clip-3.mp4) · [Watch the stream clip](docs/demo/godot-clip-1.mp4)
 
 </div>
 
-These are real examples from the clipping pipeline behind the **OxCorp homepage**.
+Real comedy and coding-stream examples: long-form footage becomes captioned vertical highlights.
 [Comedy source](https://www.youtube.com/watch?v=eHTXQW58WhA) · [Stream source](https://www.youtube.com/watch?v=6CHkSG9NWoc).
 Selections vary with the source, model, and framing options. The showcase used the
 optional LR-ASD speaker tracker; the portable default uses face/mouth-motion tracking.
@@ -154,6 +156,8 @@ uv run ruff check clipper tests
 uv build
 uv run hypecut --help
 ```
+
+The product film’s [editable Remotion project](motion/README.md) is included.
 
 The `clipper` Python namespace preserves the original engine; `hypecut` is the
 public command. The default CLI never publishes to social platforms or starts

@@ -107,7 +107,7 @@ class Settings:
     crf: str = os.getenv("CLIPPER_CQ", "21")
 
     # distribution loop: trend -> clip -> publish -> measure -> learn
-    # (ported from oxcorp-loop; dry-run by default — nothing posts without --live)
+    # (ported from the original distribution loop; dry-run by default — nothing posts without --live)
     goal: str = os.getenv("CLIPPER_GOAL", "")           # what the run is about (trend search query)
     trend: bool = os.getenv("CLIPPER_TREND", "0") in ("1", "true", "yes")  # bias picking with a trend brief
     target_platform: str = os.getenv("CLIPPER_TARGET_PLATFORM", "instagram")

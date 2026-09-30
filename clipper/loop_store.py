@@ -1,6 +1,6 @@
 """Loop persistence — the distribution loop's memory (stdlib sqlite3, no deps).
 
-Three tables, mirroring oxcorp-loop's models minus the run concept (clipper's
+Three tables, mirroring the original distribution loop's models minus the run concept (clipper's
 pipeline is keyed by source file, not runs):
 
   clips     every rendered clip registered by the pipeline (path, hook, format_id, jury score)

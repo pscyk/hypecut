@@ -1,4 +1,4 @@
-"""Learn / flywheel (ported from oxcorp-loop node 9).
+"""Learn / flywheel (ported from the original distribution loop node 9).
 
 Ranks a cross-clip "what worked" view from outcomes, then re-weights the format
 library so trend research + highlight picking bias toward winners and stale

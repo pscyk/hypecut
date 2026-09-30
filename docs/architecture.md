@@ -1,7 +1,7 @@
 # Hypecut architecture
 
-The command packages the original local OxCorp clipping engine. It operates
-without the OxCorp backend, a database service, or a running HTTP server.
+Hypecut is a standalone clipping engine. It runs without a database service or
+a running HTTP server.
 
 1. `cli.py` validates arguments and creates a unique output directory.
 2. `runtime.py` checks keys, FFmpeg/libass, the transcription device, and the encoder.
